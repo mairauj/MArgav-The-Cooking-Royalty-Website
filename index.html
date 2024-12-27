@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cooking Royalty</title>
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/home.css">
+    <!-- <link rel="stylesheet" href="css/temp.css" /> -->
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="icon" href="logo/icon.png" />
+    <script src="https://kit.fontawesome.com/a6d7c318c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <!-- <nav>
+    <h1 class="navlogo">
+        <a target="_blank" href="home.html"><img src="../logo/navbar-logo.png" alt="cr" /></a>
+    </h1>
+
+    <input type="checkbox" />
+    <div class="lines">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+    </div>
+    <div class="navul">
+        <ul class="navbar">
+            <li class="nav_items nav1">
+                <a target="_blank" href="trending-recipes.html">Trending Recipes</a>
+            </li>
+            <li class="nav_items nav4"><a target="_blank" href="breakfast.html">Breakfast</a></li>
+            <li class="nav_items nav3">
+                <a target="_blank" href="street-food.html">Street Food</a>
+            </li>
+
+            <li class="nav_items nav4"><a target="_blank" href="diet-food.html">Diet Food</a></li>
+            <li class="nav_items nav4"><a target="_blank" href="dessert.html">Desert</a></li>
+        </ul>
+    </div>
+</nav> -->
+    <nav>
+        <h1 class="navlogo">
+            <a href="index.html"><img src="logo/navbar-logo.png" alt="cr" /></a>
+        </h1>
+
+        <input type="checkbox" id="menu-toggle" />
+        <div class="lines">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+
+        <div class="navul">
+            <ul class="navbar">
+                <li class="nav_items nav1">
+                    <a href="WebPages/trending-recipes.html">Trending Recipes</a>
+                </li>
+                <li class="nav_items nav1">
+                    <a href="javascript:void(0)" class="dropbtn">Daybreak Dining & Nutrition <i
+                            class="fa-solid fa-angle-down angle-icon"></i></a>
+                    <div class="dropdown-content">
+                        <a href="WebPages/breakfast.html">Breakfast</a>
+                        <a href="WebPages/street-food.html">Street Food</a>
+                        <a href="WebPages/diet-food.html">Diet Food</a>
+                        <a href="WebPages/dessert.html">Dessert</a>
+                    </div>
+                </li>
+                <li class="nav_items nav4"><a href="WebPages/about-us.html">About Us</a></li>
+                <li class="nav_items nav4"><a href="WebPages/contact-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Home content -->
+    <div class="table">
+        <table>
+            <tr>
+                <td>
+                    <div class="logo1">
+                        <a href="index.html"><img src="logo/home1.jpg" alt="home-image" />
+                            <h1>-From Our Kitchen To Yours</h1>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div class="logo">
+                        <a href="index.html"><img src="logo/home-image.png" alt="home-image" /></a>
+                    </div>
+                </td>
+                <td>
+                    <div class="logo1">
+                        <a href="index.html"><img src="logo/home2.jpg" alt="home-image" />
+                            <h1>-Taste the Tradition</h1>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div class="first">
+                        <div class="heading">
+                            <h1>Welcome to The Cooking Royalty</h1>
+                            <svg height="80px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"
+                                fill="#000000">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <polygon style="fill: #1af0ff"
+                                        points="231.394,87.077 243.697,46.922 268.303,46.922 280.606,87.077 ">
+                                    </polygon>
+                                    <path style="fill: #b3b3b3"
+                                        d="M43.615,291.161c0-117.296,95.088-212.384,212.385-212.384c117.296,0,212.385,95.088,212.385,212.384 H43.615z">
+                                    </path>
+                                    <path style="opacity: 0.1; enable-background: new"
+                                        d="M277.808,79.885c-7.17-0.731-14.445-1.108-21.808-1.108 c-117.297,0-212.385,95.088-212.385,212.384H87.23C87.23,181.228,170.756,90.804,277.808,79.885z">
+                                    </path>
+                                    <path style="fill: #ffe7cc"
+                                        d="M113.056,472.22c-2.976,0-5.811-1.27-7.794-3.489c-1.982-2.22-2.924-5.18-2.589-8.137l3.659-32.273 c0.296-2.606,1.56-5.004,3.542-6.722l79.742-69.068c1.9-1.646,4.328-2.551,6.841-2.551h87.952c13.406,0,24.313,10.907,24.313,24.313 c0,13.406-10.907,24.313-24.313,24.313h-68.886v25.1l142.56-0.113l42.18-42.181c4.592-4.591,10.698-7.12,17.192-7.12 c6.495,0,12.6,2.529,17.193,7.12c9.478,9.479,9.478,24.905-0.001,34.384l-53.361,53.361c-1.959,1.959-4.617,3.061-7.388,3.061 H113.056V472.22z">
+                                    </path>
+                                    <g style="opacity: 0.1">
+                                        <path
+                                            d="M117.017,449.817c0.296-2.606,1.56-5.005,3.542-6.722l79.742-69.068c1.9-1.646,4.328-2.551,6.841-2.551h87.952 c5.029,0,9.708,1.535,13.59,4.162c0.024-0.445,0.039-0.893,0.039-1.346c0-13.406-10.907-24.313-24.313-24.313h-87.952 c-2.513,0-4.941,0.906-6.841,2.551l-79.742,69.068c-1.982,1.717-3.246,4.116-3.542,6.722l-3.659,32.273 c-0.335,2.957,0.607,5.917,2.589,8.137s4.818,3.489,7.794,3.489h1.42L117.017,449.817z">
+                                        </path>
+                                    </g>
+                                    <path style="fill: #388eff"
+                                        d="M132.593,487.077c0,5.967-4.837,10.805-10.806,10.805H75.864c-5.968,0-10.806-4.838-10.806-10.805 v-97.251c0-5.967,4.837-10.805,10.806-10.805h45.923c5.968,0,10.806,4.838,10.806,10.805V487.077z">
+                                    </path>
+                                    <path style="opacity: 0.1; enable-background: new"
+                                        d="M86.727,487.077v-97.251c0-5.967,4.837-10.805,10.806-10.805H75.864 c-5.968,0-10.806,4.838-10.806,10.805v97.251c0,5.967,4.837,10.805,10.806,10.805h21.669 C91.563,497.882,86.727,493.044,86.727,487.077z">
+                                    </path>
+                                    <path style="fill: #1af0ff"
+                                        d="M504.163,300.932c0,5.771-4.678,10.449-10.449,10.449H18.286c-5.771,0-10.449-4.678-10.449-10.449 v-12.016c0-5.77,4.678-10.449,10.449-10.449h475.429c5.771,0,10.449,4.679,10.449,10.449V300.932z">
+                                    </path>
+                                    <path style="fill: #b3b3b3"
+                                        d="M237.642,56.474c-1.829,0-3.516-0.98-4.422-2.568l-18.358-32.171c-0.899-1.576-0.892-3.51,0.02-5.079 c0.911-1.569,2.588-2.535,4.402-2.535h73.431c1.814,0,3.492,0.965,4.402,2.535c0.911,1.569,0.918,3.505,0.019,5.079l-18.358,32.171 c-0.906,1.588-2.594,2.568-4.422,2.568H237.642z">
+                                    </path>
+                                    <path
+                                        d="M132.747,245.552c-4.328,0-7.837,3.509-7.837,7.837c0,4.328,3.509,7.837,7.837,7.837h35.438 c4.328,0,7.837-3.509,7.837-7.837c0-4.328-3.509-7.837-7.837-7.837H132.747z">
+                                    </path>
+                                    <path
+                                        d="M417.456,366.456c-8.586,0-16.659,3.344-22.733,9.416l-39.887,39.888l-131.474,0.105v-9.423h61.049 c17.727,0,32.149-14.422,32.149-32.149c0-17.727-14.423-32.149-32.149-32.149h-87.952c-4.397,0-8.649,1.586-11.971,4.464 l-44.642,38.666c-2.04-8.082-9.351-14.09-18.058-14.09H75.864c-10.28,0-18.643,8.362-18.643,18.642v97.251 c0,10.28,8.363,18.642,18.643,18.642h45.923c10.28,0,18.643-8.362,18.643-18.642v-7.021h38.247c4.328,0,7.837-3.509,7.837-7.837 s-3.509-7.837-7.837-7.837h-38.248V405.5l54.319-47.047c0.474-0.412,1.081-0.637,1.709-0.637h87.952 c9.084,0,16.476,7.391,16.476,16.476c0,9.084-7.392,16.476-16.476,16.476h-5.945v-21.053c0-4.328-3.509-7.837-7.837-7.837 s-7.837,3.509-7.837,7.837v21.053h-47.267c-4.328,0-7.837,3.509-7.837,7.837v25.103c0,2.079,0.827,4.074,2.298,5.543 c1.47,1.469,3.462,2.294,5.539,2.294c0.002,0,0.004,0,0.006,0l142.56-0.113c2.076-0.001,4.068-0.828,5.535-2.296l42.179-42.18 c3.113-3.112,7.251-4.825,11.652-4.825s8.539,1.714,11.651,4.825c6.423,6.424,6.423,16.877,0,23.301l-2.055,2.055l-12.955-12.955 c-3.06-3.06-8.023-3.06-11.082,0c-3.06,3.06-3.06,8.023,0,11.082l12.955,12.955l-40.223,40.223 c-0.494,0.493-1.149,0.765-1.847,0.765H206.889c-4.328,0-7.837,3.509-7.837,7.837c0,4.328,3.509,7.837,7.837,7.837h167.009 c4.884,0,9.476-1.902,12.93-5.356l53.361-53.361c12.534-12.536,12.534-32.932,0-45.467 C434.117,369.8,426.044,366.456,417.456,366.456z M124.757,487.077c0,1.637-1.332,2.969-2.97,2.969h-15.125v-35.864 c0-4.328-3.509-7.837-7.837-7.837s-7.837,3.509-7.837,7.837v35.864H75.864c-1.637,0-2.97-1.331-2.97-2.969v-97.251 c0-1.637,1.332-2.969,2.97-2.969h45.923c1.637,0,2.97,1.331,2.97,2.969V487.077z">
+                                    </path>
+                                    <path
+                                        d="M493.714,270.63h-18.455c-2.152-23.44-7.991-46.177-17.48-67.817c-11.819-26.953-28.673-50.944-50.097-71.304 c-3.137-2.981-8.098-2.856-11.079,0.282c-2.981,3.137-2.855,8.098,0.282,11.079c19.904,18.917,35.562,41.202,46.54,66.237 c8.614,19.645,13.997,40.264,16.104,61.524h-68.738c-4.328,0-7.837,3.509-7.837,7.837s3.509,7.837,7.837,7.837h102.922 c1.44,0,2.612,1.172,2.612,2.612v12.015c0,1.44-1.172,2.612-2.612,2.612H18.286c-1.44,0-2.612-1.172-2.612-2.612v-12.016 c0-1.44,1.172-2.612,2.612-2.612h334.89c4.328,0,7.837-3.509,7.837-7.837c0-4.328-3.509-7.837-7.837-7.837H52.491 c0.316-3.156,0.706-6.291,1.165-9.404h52.923c4.328,0,7.837-3.509,7.837-7.837c0-4.328-3.509-7.837-7.837-7.837H56.606 C77.387,154.648,158.887,86.615,256,86.615c43.789,0,85.545,13.635,120.754,39.43c3.491,2.557,8.396,1.801,10.954-1.691 c2.558-3.491,1.801-8.395-1.691-10.953c-30.214-22.135-64.903-35.944-101.603-40.645l-3.201-10.443 c1.777-1.114,3.3-2.644,4.373-4.523l18.357-32.17c2.277-3.987,2.258-8.932-0.047-12.898c-2.305-3.972-6.589-6.439-11.18-6.439 h-73.431c-4.592,0-8.876,2.467-11.178,6.434c-2.307,3.97-2.326,8.913-0.05,12.9l18.359,32.171c1.072,1.879,2.594,3.408,4.372,4.523 l-3.208,10.469C126.223,85.903,46.274,168.199,36.757,270.63H18.286C8.203,270.63,0,278.833,0,288.915v12.016 c0,10.082,8.203,18.286,18.286,18.286h475.429c10.082,0,18.286-8.204,18.286-18.286v-12.016 C512,278.833,503.796,270.63,493.714,270.63z M256,70.941c-3.878,0-7.73,0.109-11.561,0.308l2.126-6.939h18.868l2.125,6.937 C263.723,71.05,259.869,70.941,256,70.941z M224.011,21.956h63.976l-15.224,26.68h-33.528L224.011,21.956z">
+                                    </path>
+                                    <circle style="fill: #8ccccc" cx="98.826" cy="412.109" r="10.157"></circle>
+                                    <g>
+                                        <path style="fill: #ffffff"
+                                            d="M382.485,149.448c-16.435,6.808-21.953,12.327-28.761,28.761 c-6.808-16.435-12.326-21.953-28.761-28.761c16.434-6.808,21.953-12.326,28.761-28.761 C360.532,137.122,366.051,142.64,382.485,149.448z">
+                                        </path>
+                                        <circle style="fill: #ffffff" cx="396.392" cy="179.974" r="12.689"></circle>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h3>
+                            Your goto site for all trnending food recipes and diverse cuisines.
+                        </h3>
+                        <h3>Discover a world of culinary delights with us.</h3>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div class="first">
+
+                        <h1>
+                            Discover Trending
+                            <svg height="60px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                stroke="#ffffff">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M21 7L14.4142 13.5858C13.6332 14.3668 12.3668 14.3668 11.5858 13.5858L10.4142 12.4142C9.63316 11.6332 8.36683 11.6332 7.58579 12.4142L3 17M21 7H15M21 7V13"
+                                        stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                            Food Recipes with The Cooking Royalty
+                        </h1>
+
+                        <h3>
+                            Explore a variety of cuisines and Trending recipes on The Cooking
+                            Royalty.
+                        </h3>
+                        <h3>Your ultimate destination for culinary inspiration.</h3>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div class="button-container first">
+                        <a href="WebPages/trending-recipes.html" class="red-button">Explore</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Slider gallery  -->
+    <div class="swiper container">
+        <div class="swiper-wrapper slider-container">
+            <!-- Slides -->
+            <div class="swiper-slide slide ">
+                <!-- <div class="slide"> -->
+                <!-- <a target="_blank" href="recipe2.html"> -->
+                <a target="_blank" href="Recipes/Chinese/veg-manchurian.html">
+                    <img src="logo/slider/1.jpg" alt="veg manchurian">
+                    <h1 class="num">1</h1>
+                    <h1 class="num1">Veg Manchurian</h1>
+                </a>
+                <!-- </a> -->
+                <!-- </div> -->
+            </div>
+
+
+            <div class="swiper-slide slide">
+                <!-- <div class="slide"> -->
+                <!-- <a target="_blank" href="recipe2.html"> -->
+                <a target="_blank" href="Recipes/Punjabi/paneer-butter-masala.html">
+                    <img src="logo/slider/2.jpg" alt="paneer butter masala">
+                    <h1 class="num">2</h1>
+                    <h1 class="num1">Paneer Butter Masala</h1>
+                </a>
+                <!-- </a> -->
+                <!-- </div> -->
+            </div>
+            <div class="swiper-slide slide ">
+                <!-- <div class="slide"> -->
+                <!-- <a target="_blank" href="recipe2.html"> -->
+                    <a target="_blank" href="Recipes/South-Indian/masala-dosa.html">
+                <img src="logo/slider/3.jpg" alt="masala dosa">
+                <h1 class="num">3</h1>
+                <h1 class="num1">Masala Dosa</h1>
+            </a>
+                <!-- </a> -->
+                <!-- </div> -->
+            </div>
+            <div class="swiper-slide slide">
+                <!-- <div class="slide"> -->
+                <a target="_blank" href="Recipes/Kathiyawadi/methi-thepla.html">
+                <img src="logo/slider/4.jpg" alt="methi thepla">
+                <h1 class="num">4</h1>
+                <h1 class="num1">Methi Thepla</h1>
+                </a>
+                <!-- </div> -->
+            </div>
+
+            <div class="swiper-slide slide">
+                <!-- <div class="slide"> -->
+                <a target="_blank" href="Recipes/Italian/tawa-pizza.html">
+                <img src="logo/slider/5.jpg" alt="pan pizza">
+                <h1 class="num">5</h1>
+                <h1 class="num1">Tawa Pizza</h1>
+                </a>
+                <!-- </div> -->
+            </div>
+
+            <div class="swiper-slide slide">
+                <!-- <div class="slide"> -->
+                <a target="_blank" href="Recipes/Breakfast/sandwich.html">
+                <img src="logo/slider/6.jpg" alt="cheese sandwich">
+                <h1 class="num">6</h1>
+                <h1 class="num1">Sandwich</h1>
+                </a>
+                <!-- </div> -->
+            </div>
+
+            <div class="swiper-slide slide">
+                <!-- <div class="slide"> -->
+                <a target="_blank" href="Recipes/Street-Food/pani-puri.html">
+                <img src="logo/slider/7.jpg" alt="pani-puri">
+                <h1 class="num">7</h1>
+                <h1 class="num1">Pani-Puri</h1>
+                </a>
+                <!-- </div> -->
+            </div>
+
+            <div class="swiper-slide slide">
+                <!-- <div class="slide"> -->
+                <a target="_blank" href="Recipes/Street-Food/vadapav.html">
+                <img src="logo/slider/8.jpg" alt="vadapav">
+                <h1 class="num">8</h1>
+                <h1 class="num1">Vadapav</h1>
+                </a>
+                <!-- </div> -->
+            </div>
+
+            <div class="swiper-slide slide">
+                <!-- <div class="slide"> -->
+                <a target="_blank" href="Recipes/Diet-Food/amla-sharbat.html">
+                <img src="logo/slider/9.jpg" alt="amla sharbat">
+                <h1 class="num">9</h1>
+                <h1 class="num1">Amla Sharbat</h1>
+                </a>
+                <!-- </div> -->
+            </div>
+
+            <div class="swiper-slide slide">
+                <!-- <div class="slide"> -->
+                <a target="_blank" href="Recipes/Dessert/chocolate-brownies.html">
+                <img src="logo/slider/10.jpg" alt="chocolate brownies">
+                <h1 class="num">10</h1>
+                <h1 class="num1">Chocolate Brownies</h1>
+                </a>
+                <!-- </div> -->
+            </div>
+
+
+            <!-- <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          ... -->
+        </div>
+        <div class="swiper-button-prev btns"></div>
+        <div class="swiper-button-next btns"></div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <hr>
+        <div class="footer">
+            <div class="description">
+                <a href="index.html"><img src="logo/bg-logo.png" alt="cr"></a>
+                <h2>Why Choose Cooking Royalty?</h2>
+                <h3>Our mission is to empower home cooks to explore their culinary potential. With easy-to-follow
+                    instructions and beautiful photography, we make cooking enjoyable and accessible. Whether you’re
+                    preparing a family dinner or hosting a special occasion, Cooking Royalty is your go-to source for
+                    delicious inspiration.</h3>
+            </div>
+            <div class="footer-items">
+                <a href="index.html">Home</a>
+                <a href="WebPages/trending-recipes.html">Recipes</a>
+                <a href="WebPages/about-us.html">About Us</a>
+                <a href="WebPages/contact-us.html">Contact Us</a>
+            </div>
+            <div class="social">
+                <h1>Follow us...</h1>
+                <a target="_blank" href="https://www.facebook.com/" style="--color: #426782"><svg stroke="currentColor"
+                        fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="80"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                        </path>
+                    </svg></a>
+                <a target="_blank" href="https://www.instagram.com/" style="--color: #E1306C"><svg stroke="currentColor"
+                        fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="80"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                        </path>
+                    </svg></a>
+                <a target="_blank" href="https://www.youtube.com/" style="--color: #C8102E"><svg stroke="currentColor"
+                        fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="80"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                        </path>
+                    </svg></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JavaScript/slider.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+.footer {
+    display: flex;  
+    justify-content: center;
+    align-items: top;
+    color: white;
+    max-width: 100%;
+    margin: auto;
+    padding: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #222;
+    width: 100%;
+}
+.description {
+    width: 50%;
+    background-color: #222;
+}
+.description a {
+    background-color: #222;
+}
+.description img{
+    background-color: #222;
+    width: 8vw;
+}
+.description h2 {
+    background-color: #222;
+    font-size: 15px;
+    font-weight: 250;
+    padding: 1vw 0vw;
+}
+.description h3 {
+    background-color: #222;
+    width: 80%;
+    font-size: 15px;
+    font-weight: 150;
+}
+.footer-items{
+    background-color: #222;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.footer-items a{
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+.footer-items a:hover {
+    color: #c4c4c4;
+}
+.social{
+    background-color: #222;
+    width: 25%;
+    text-align: center;
+}
+.social a{
+    background-color: #222;
+    color: var(--color);
+}
+.social a:hover {
+    background: var(--color);
+    color: #F8F8F8;
+    box-shadow: 0 0 5px var(--color),
+    0 0 25px var(--color),
+    0 0 50px var(--color),
+    0 0 200px var(--color);
+}
+.social h1 {
+    background-color: #222;
+    font-size: 20px;
+    font-weight: 250;
+}
+.social svg{
+    height: 12vh;
+    /* color: white; */
+    background-color: #222;
+    padding: 5vh 1vw 2vh 1vw;
+}
+.titlecr {
+    background-color: #222;
+    text-align: center;
+    padding: 1vw;
+}
+.titlecr a {
+    color: white;
+    background-color: #222;
+    font-size: 1.5rem;
+    cursor: default;
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    * {
+        font-size: 31.25%;
+    }
+
+    .description h2 {
+        font-size: 1.5rem;
+    }
+
+    .description h3 {
+        font-size: 1.5rem;
+    }
+    .footer-items a{
+        font-size: 3rem;
+    }
+    
+.social h1{
+    font-size: 2rem;
+}
+    .social svg {
+        height: 10vh;
+    }
+}
+@media (max-width:450px) {
+    .social svg {
+        height: 9vh;
+    }
+}

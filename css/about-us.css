@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&family=Varela+Round&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* margin-top: 90px; */
+    margin: 100px auto;
+    /* z-index: ; */
+    border-bottom: 0.5vw solid rgb(112, 255, 122);
+    border-top: 0.5vw solid rgb(112, 255, 122);
+    /* Border color */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    /* overflow: hidden; */
+    /* Ensure border rounds nicely */
+    padding: 10px 0px;
+    cursor: pointer;
+    /* margin-top: 20vw; */
+}
+
+.logo img {
+    width: 40vw;
+    transition: transform 0.3s, filter 0.3s;
+    /* Smooth effects */
+}
+
+.logo:hover {
+    transition: 0.5s ease;
+    border-bottom: 0.5vw solid #1098F7;
+    border-top: 0.5vw solid #1098F7;
+}
+
+.logo:hover img {
+    transform: scale(1.05);
+    /* Slight zoom effect on hover */
+    filter: brightness(1.1);
+    /* Brighten image on hover */
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 200;
+}
+
+.first svg {
+    margin: -20px -10px;
+    padding: 1rem;
+}
+
+.first h1 {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 2vw;
+    -webkit-text-stroke: 2px #1098F7;
+}
+
+.first h3 {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0vw 5vw;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 200;
+}
+
+.second h1 {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 5vw 2vw 2vw;
+    -webkit-text-stroke: 2px #1098F7;
+}
+
+.second h3 {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0vw 5vw;
+}
+
+.second h4 {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 2vw 5vw;
+}
+
+
+.happy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Kaushan Script", cursive;
+        font-weight: 200;
+}
+.happy h1{
+        font-size: 50px;
+        font-weight: 500;
+        padding: 5vw 2vw 2vw;
+        -webkit-text-stroke: 2px #C80036;
+}
+.happy svg {
+    margin: -35px -10px;
+    /* padding: 1rem; */
+}
+.third img {
+    display: block;
+    /* Removes bottom space */
+    height: auto;
+    /* Maintains aspect ratio */
+    border-radius: 10px;
+    /* Rounded corners for the image */
+}
+
+.third table {
+    margin: 5vw 2vw;
+}
+
+.third th {
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    padding: 0vw 2vw;
+}
+
+.third td a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.third img {
+    width: 25vw;
+}
+
+.third img:hover {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.6), 0 0 40px rgba(197, 197, 197, 0.4);
+    transition: box-shadow 0.4s ease;
+}
+
+.thumbnail{
+    vertical-align: top;
+}
+.third h6 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: #333; */
+    text-align: left;
+    /* border-radius: 10px; */
+    padding: 1vw;
+}
+
+.third td {
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    padding: 1vw 2vw;
+}
+
+.end h4 {
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+    font-size: 29px;
+    font-weight: 300;
+    padding: 2vw 5vw;
+}
+
+/* fourth table form  */
+.responsive-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 5vw 2vw;
+}
+
+.responsive-table td {
+    /* padding: 15px; */
+    vertical-align: top;
+    /* Align content at the top */
+}
+
+
+.form-column {
+    width: 50%;
+    /* Adjust as needed */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* Arrange form elements in a column */
+}
+
+label {
+    margin: 1.5rem 0;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea,
+button,
+option {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    /* Full width for responsiveness */
+    resize: vertical;
+
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: #333; */
+    /* text-align: left; */
+    /* border-radius: 10px; */
+    padding: 0.5vw;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .responsive-table {
+        display: block;
+        /* Make the table behave like a block */
+    }
+
+    .responsive-table td {
+        display: block;
+        /* Stack columns on small screens */
+        width: 100%;
+        /* Full width */
+    }
+}
+@media (max-width: 600px) {
+    .third {
+        display: block;
+        /* Make the table behave like a block */
+    }
+
+    .third th, td {
+        display: block;
+        /* Stack columns on small screens */
+        width: 100%;
+        /* Full width */
+    }
+}
+@media (max-width:768px) {
+    * {
+        font-size: 31.25%;
+    }
+
+    /* .first .heading {
+        flex-direction: column;
+    } */
+
+    .first {
+        padding: 0 6rem;
+    }
+
+    .first h1 {
+        font-size: 8rem;
+    }
+
+    .first h3 {
+        font-size: 4rem;
+        padding: 0.5em 0;
+    }
+
+    .first svg {
+        height: 10rem;
+    }
+
+    .second {
+        padding: 0 6rem;
+    }
+
+    .second h1 {
+        font-size: 8rem;
+    }
+
+    .second h3 {
+        font-size: 4rem;
+        padding: 0.5em 0;
+    }
+
+    .third h4 {
+        font-size: 5rem;
+    }
+
+    .third h6 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:580px) {
+    .first svg {
+        display: none;
+    }
+
+    .second svg {
+        display: none;
+    }
+}
